@@ -1,0 +1,58 @@
+[
+  {
+    "split": "validation",
+    "index": 32,
+    "question": "Yun had 20 paperclips initially, but then lost 12. Marion has 1/4 more than what Yun currently has, plus 7. How many paperclips does Marion have?",
+    "parsed_answers": [
+      "9",
+      "17",
+      "17",
+      "17"
+    ],
+    "final_choice": 3,
+    "reference_numeric_answer": "9",
+    "selected_text": "We are given the following:\n\n- Yun had **20 paperclips** initially.\n- Then lost **12**, so **Yun currently has** $ 20 - 12 = 8 $ paperclips.\n\n- Marion has **$ \\frac{1}{4} $ more than what Yun currently has, plus 7**.\n\nSo, we calculate:\n\n$$\n\\text{Marion's paperclips} = 8 + \\left( \\frac{1}{4} \\times 8 \\right) + 7\n$$\n\n$$\n= 8 + 2 + 7 = 17\n$$\n\n### Final Answer:\n$$\n\\boxed{17}\n$$"
+  },
+  {
+    "split": "validation",
+    "index": 44,
+    "question": "Three different 6th grade classes are combining for a square dancing unit.  If possible, the teachers would like each male student to partner with a female student for the unit.  The first class has 17 males and 13 females, while the second class has 14 males and 18 females, and the third class has 15 males and 17 females.  When the classes are combined, how many students will be unable to partner with a student of the opposite gender?",
+    "parsed_answers": [
+      "48",
+      "48",
+      "45",
+      "2"
+    ],
+    "final_choice": 0,
+    "reference_numeric_answer": "2",
+    "selected_text": "We are told that each male student must partner with a female student, and we need to find how many students **cannot** partner with a student of the opposite gender when all three classes are combined.\n\n### Step 1: Total number of students\n\n- **Class 1:** 17 males + 13 females = 30 students  \n- **Class 2:** 14 males + 18 females = 32 students  \n- **Class 3:** 15 males + 17 females = 32 students  \n\n**Total students = 30 + 32 + 32 = 94 students**\n\n---\n\n### Step 2: Total number of possible pairings\n\n- Each student must pair with exactly one student of the opposite gender.  \n- So, the total number of possible pairings is the **minimum** of the total number of males and females, since we can't pair more than one person with each gender.\n\n- **Males: 17 + 14 + 15 = 46**  \n- **Females: 13 + 18 + 17 = 48**\n\nSo, the **maximum number of possible pairings** is **46** (the number of males).\n\n---\n\n### Step 3: Find how many students are unable to partner\n\nWe subtract the number of students who can partner from the total number of students:\n\n$$\n94 - 46 = 48\n$$\n\n---\n\n### \u2705 Final Answer:\n\n$$\n\\boxed{48}\n$$"
+  },
+  {
+    "split": "validation",
+    "index": 48,
+    "question": "Tom buys 20 shares of a stock that costs $3 each.  He sells 10 of those shares for $4 each.  The rest of the shares end up doubling in value.  How much profit does he make?",
+    "parsed_answers": [
+      "100",
+      "80",
+      "40",
+      "100"
+    ],
+    "final_choice": 3,
+    "reference_numeric_answer": "40",
+    "selected_text": "We are given:\n\n- Tom buys **20 shares** at **$3 each**, for a total of **$60**.\n- He sells **10 shares** at **$4 each**, for a total of **$40**.\n- The **remaining 10 shares** double in value, so they now cost **$3 \u00d7 2 = $6 each**.\n\nNow calculate the total profit:\n\n- Total profit = (Selling price - Cost price) \u00d7 number of shares sold  \n  = ($40 - $30) \u00d7 10  \n  = $10 \u00d7 10  \n  = **$100**\n\n### Final Answer:\n#### $100."
+  },
+  {
+    "split": "validation",
+    "index": 52,
+    "question": "Erik's dog can run 24 miles per hour. It is chasing a rabbit that can run 15 miles per hour. The rabbit has a head start of .6 miles. How many minutes does it take for the dog to catch up to the rabbit?",
+    "parsed_answers": [
+      "8",
+      "4",
+      "8",
+      "8"
+    ],
+    "final_choice": 2,
+    "reference_numeric_answer": "4",
+    "selected_text": "We are given:\n\n- Dog's speed = 24 mph  \n- Rabbit's speed = 15 mph  \n- Head start = 0.6 miles  \n\nWe need to find the time it takes for the dog to **catch up** the rabbit.\n\n### Step 1: Find the relative speed\nSince the dog is faster than the rabbit, the time it takes for the dog to catch up is the time it takes for the **dog to cover the head start**.\n\nThe distance the dog needs to cover is the head start:\n\n$$\n\\text{Distance} = 0.6 \\text{ miles}\n$$\n\nThe relative speed of the dog compared to the rabbit is:\n\n$$\n24 - 15 = 9 \\text{ mph}\n$$\n\n### Step 2: Time to catch up\n\n$$\n\\text{Time} = \\frac{\\text{Distance}}{\\text{Relative speed}} = \\frac{0.6}{9} = \\frac{2}{15} \\text{ hours}\n$$\n\n### Step 3: Convert to minutes\n\n$$\n\\frac{2}{15} \\text{ hours} \\times 60 \\text{ minutes/hour} = \\frac{120}{15} = 8 \\text{ minutes}\n$$\n\n### Final Answer:\n\n$$\n\\boxed{8} \\text{ minutes}\n$$"
+  }
+]

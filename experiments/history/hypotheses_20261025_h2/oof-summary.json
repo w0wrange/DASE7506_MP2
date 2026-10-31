@@ -1,0 +1,119 @@
+[
+  {
+    "policy": "ratio4",
+    "mean_hard_accuracy": 82.38725953957743,
+    "sd_hard_accuracy": 0.238090016880195,
+    "paired_by_seed": [
+      {
+        "hard_gains": 0,
+        "hard_losses": 0,
+        "hard_net": 0,
+        "hard_delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 0,
+        "hard_losses": 0,
+        "hard_net": 0,
+        "hard_delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 0,
+        "hard_losses": 0,
+        "hard_net": 0,
+        "hard_delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      }
+    ],
+    "seed": [
+      42,
+      43,
+      44
+    ],
+    "aggregation": {
+      "mode": "candidate_max"
+    }
+  },
+  {
+    "policy": "ratio8",
+    "mean_hard_accuracy": 81.92999053926206,
+    "sd_hard_accuracy": 0.20619200300571058,
+    "paired_by_seed": [
+      {
+        "hard_gains": 23,
+        "hard_losses": 35,
+        "hard_net": -12,
+        "hard_delta_pp": -0.5676442762535477,
+        "mcnemar_exact_two_sided": 0.14800580076020597,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 26,
+        "hard_losses": 29,
+        "hard_net": -3,
+        "hard_delta_pp": -0.14191106906338694,
+        "mcnemar_exact_two_sided": 0.7877061896700435,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 25,
+        "hard_losses": 39,
+        "hard_net": -14,
+        "hard_delta_pp": -0.6622516556291391,
+        "mcnemar_exact_two_sided": 0.10342187831608089,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      }
+    ],
+    "seed": [
+      42,
+      43,
+      44
+    ],
+    "aggregation": {
+      "mode": "candidate_max"
+    }
+  },
+  {
+    "policy": "hard_only",
+    "mean_hard_accuracy": 81.4569536423841,
+    "sd_hard_accuracy": 0.28773711117777767,
+    "paired_by_seed": [
+      {
+        "hard_gains": 32,
+        "hard_losses": 50,
+        "hard_net": -18,
+        "hard_delta_pp": -0.8514664143803217,
+        "mcnemar_exact_two_sided": 0.05980833833431617,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 34,
+        "hard_losses": 52,
+        "hard_net": -18,
+        "hard_delta_pp": -0.8514664143803217,
+        "mcnemar_exact_two_sided": 0.06615259746138928,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 38,
+        "hard_losses": 61,
+        "hard_net": -23,
+        "hard_delta_pp": -1.0879848628192998,
+        "mcnemar_exact_two_sided": 0.026525106848394427,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      }
+    ],
+    "seed": [
+      42,
+      43,
+      44
+    ],
+    "aggregation": {
+      "mode": "candidate_max"
+    }
+  }
+]

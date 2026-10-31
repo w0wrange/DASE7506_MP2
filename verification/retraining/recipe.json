@@ -1,0 +1,57 @@
+{
+  "seed": 42,
+  "fold_seed_offset": 42,
+  "epochs": 19,
+  "linear": {
+    "kind": "linear",
+    "C": 0.1
+  },
+  "neural": {
+    "kind": "mlp",
+    "width": 256,
+    "dropout": 0.3,
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "loss": "combined",
+    "relative": true,
+    "structural": true
+  },
+  "members": [
+    {
+      "path": "linear",
+      "weight": 0.39358079620766995,
+      "temperature": 0.905605028048277,
+      "flavor": "base"
+    },
+    {
+      "path": "neural",
+      "weight": 0.6064192037923302,
+      "temperature": 3.071770355968108,
+      "flavor": "arithmetic"
+    }
+  ],
+  "residual_grid": [
+    0.0,
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "aggregation_grid": [
+    {
+      "mode": "candidate_max"
+    },
+    {
+      "mode": "answer_power",
+      "alpha": 1.0
+    }
+  ],
+  "final_residual": {
+    "support_bonus": 1.0,
+    "taint_penalty": 0.0,
+    "aggregation": {
+      "mode": "candidate_max"
+    }
+  },
+  "selection": "Training OOF qualifies; maximize validation correct, ties OOF correct then smaller residual strength. Original OOF/validation selectors agreed."
+}

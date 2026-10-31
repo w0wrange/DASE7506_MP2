@@ -1,0 +1,43 @@
+{
+  "selection": {
+    "policy": "ratio4",
+    "mean_hard_accuracy": 82.38725953957743,
+    "sd_hard_accuracy": 0.238090016880195,
+    "paired_by_seed": [
+      {
+        "hard_gains": 0,
+        "hard_losses": 0,
+        "hard_net": 0,
+        "hard_delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 0,
+        "hard_losses": 0,
+        "hard_net": 0,
+        "hard_delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 0,
+        "hard_losses": 0,
+        "hard_net": 0,
+        "hard_delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      }
+    ],
+    "seed": [
+      42,
+      43,
+      44
+    ],
+    "aggregation": {
+      "mode": "candidate_max"
+    }
+  },
+  "candidate_freeze_sha256": "b42dbb6734996bec4d55a39517a19163d2a7b049ee1cf754ea31b85cd1ba065e",
+  "utc": "2026-10-24T16:57:29Z"
+}

@@ -1,0 +1,24 @@
+{
+  "members": [
+    {
+      "path": "linear-3816528260",
+      "weight": 0.39358079620766995,
+      "temperature": 0.905605028048277
+    },
+    {
+      "path": "mlp-d715a662cb",
+      "weight": 0.6064192037923302,
+      "temperature": 3.071770355968108
+    }
+  ],
+  "metrics": {
+    "n": 4755,
+    "correct": 4388,
+    "accuracy": 92.28180694580078,
+    "hard_n": 2114,
+    "hard_correct": 1747,
+    "hard_accuracy": 82.63954162597656,
+    "correct_mass_nll": 0.19827920198440552
+  },
+  "asset_bytes": 3880730
+}

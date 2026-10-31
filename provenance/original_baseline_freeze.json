@@ -1,0 +1,58 @@
+{
+  "utc": "2026-10-15T16:18:22Z",
+  "validation": {
+    "n": 798,
+    "correct": 741,
+    "accuracy": 92.85713958740234,
+    "hard_n": 355,
+    "hard_correct": 298,
+    "hard_accuracy": 83.94365692138672,
+    "correct_mass_nll": 0.18991903960704803
+  },
+  "asset_sha256": {
+    "config.json": "ca9791f3cd330a259b686827be031446b792c24e6f773dec1fbcdbad362380d8",
+    "linear-3816528260/model.json": "c14d82ade3f789e619fda0ffd12d752c021ac8d106fe13c82571bf8afb752b38",
+    "linear-3816528260/weights.npz": "b587fd9180495025ac86b4d45c73d7b9af4dd2aaa02c896e45a874ef2037b734",
+    "mlp-d715a662cb/model.json": "2b7644ba0c0bc60079ec8b0b394b3e80696a1348f0b504874781ae765b9945a2",
+    "mlp-d715a662cb/weights.npz": "5da445aa7fdd4ab7fbe32ef696dc9acd83d8cc78b2af862e504b3e876d284698"
+  },
+  "source_sha256": {
+    "._check_data.py": "2e179554b9e6082a22c57752ede8b90e3c8770ca5a4195f41bd4378333a1c90d",
+    "._common.py": "2e179554b9e6082a22c57752ede8b90e3c8770ca5a4195f41bd4378333a1c90d",
+    "._evaluate_frozen.py": "a1e51b0c99b7e8d6cec7ab83ac6657cfefa03769afee7b878d86d48ad3a453a2",
+    "._experiment.py": "a1e51b0c99b7e8d6cec7ab83ac6657cfefa03769afee7b878d86d48ad3a453a2",
+    "._features.py": "a1e51b0c99b7e8d6cec7ab83ac6657cfefa03769afee7b878d86d48ad3a453a2",
+    "._predict.py": "2e179554b9e6082a22c57752ede8b90e3c8770ca5a4195f41bd4378333a1c90d",
+    "._run_pipeline.py": "a1e51b0c99b7e8d6cec7ab83ac6657cfefa03769afee7b878d86d48ad3a453a2",
+    "._score_predictions.py": "2e179554b9e6082a22c57752ede8b90e3c8770ca5a4195f41bd4378333a1c90d",
+    "._submission.py": "056ac72fa39509af12c3e609fbf6a7ae8fd231388ff1a61003965b8c575665a2",
+    "._training.py": "a1e51b0c99b7e8d6cec7ab83ac6657cfefa03769afee7b878d86d48ad3a453a2",
+    "._verify_solution.py": "a1e51b0c99b7e8d6cec7ab83ac6657cfefa03769afee7b878d86d48ad3a453a2",
+    "check_data.py": "32f203e156e3019f87bb038ade4f303da21ca2f1694bb678a3ddc44661f0b533",
+    "common.py": "aecd10f7ff2e9e82ac5673d34d576e122caac51d2caaa7c7a8aa05906da51f6c",
+    "evaluate_frozen.py": "8c703aa537d843ff8a50c391e3790206ee0a778f683810d8caea79d33d51c755",
+    "experiment.py": "cfc0f6190b1da6a728e1f820f2ad9e38f9edbfe73f108b5a09730bf3b55bdb7e",
+    "features.py": "106e50bbf98dab74008ec55da24959fbb886cc6aa92578e26cf0c7f60c49f4e8",
+    "predict.py": "e7a627fbdc9ef8d4ab3189a6fa5ac02d56ae703ccd1a81507aea0bd66e042162",
+    "run_pipeline.py": "bee8d20a9514b9a45945b61d7fd16f3980e1fa99b2d0e17c8aecd89c0b6c9cd0",
+    "score_predictions.py": "fe12b809b82117aea722e5dfef7a55a88950a7cf50c49ec2ea007ea847959960",
+    "submission.py": "9b6ff5f62f19354845ba2951cf6b5eddd3dc3f47d619c0084fa317143f958930",
+    "training.py": "24ba37b5d96434709d019262cbaee3fd0396c6924889213b7b88c765b66b0fce",
+    "verify_solution.py": "ac18ffd026d7df94e6d8be42f4ce117d5e1e319183a1c32973e858e1da05b474"
+  },
+  "hardware": {
+    "python": "3.12.3",
+    "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+    "machine": "x86_64",
+    "packages": {
+      "numpy": "2.3.2",
+      "scipy": "1.16.1",
+      "scikit-learn": "1.7.1",
+      "catboost": "1.2.8",
+      "torch": "2.8.0+cu128",
+      "threadpoolctl": "3.6.0"
+    },
+    "gpu": "NVIDIA GeForce RTX 3080 Ti"
+  },
+  "selection": "oof-fusion"
+}

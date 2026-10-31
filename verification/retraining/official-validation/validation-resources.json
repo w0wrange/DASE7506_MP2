@@ -1,0 +1,16 @@
+{
+  "split": "validation",
+  "prediction_process_seconds": 3.1107060089707375,
+  "scoring_process_seconds": 0.18702905997633934,
+  "total_seconds": 3.297735068947077,
+  "asset_uncompressed_bytes": 1209590,
+  "threads": 4,
+  "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "cpu_model": "Intel(R) Xeon(R) Gold 6248 CPU @ 2.50GHz",
+  "python": "3.12.3",
+  "checkpoint_freeze_sha256": "d7fbd484e6ff08673681dba57fdbbbd2b2f7db6dc92213c6522f7e2a1fa313ab",
+  "reference_cpu_eligibility": "Not established; Xeon Platinum8457C is authoritative.",
+  "test_predictions_retained": false,
+  "official_scorer_sha256": "fe12b809b82117aea722e5dfef7a55a88950a7cf50c49ec2ea007ea847959960",
+  "bank_manifest_sha256": "8b3721d458e48c87eab3a28f660e663981b10617b6e7321123c6ff30b1fbe825"
+}

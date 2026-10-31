@@ -1,0 +1,61 @@
+{
+  "winner": {
+    "mode": "global",
+    "mean_hard_accuracy": 82.38725953957743,
+    "sd_hard_accuracy": 0.238090016880195,
+    "paired_vs_global": [
+      {
+        "hard_gains": 0,
+        "hard_losses": 0,
+        "hard_net": 0,
+        "hard_delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 0,
+        "hard_losses": 0,
+        "hard_net": 0,
+        "hard_delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 0,
+        "hard_losses": 0,
+        "hard_net": 0,
+        "hard_delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      }
+    ],
+    "paired_vs_valid_global": [
+      {
+        "hard_gains": 33,
+        "hard_losses": 19,
+        "hard_net": 14,
+        "hard_delta_pp": 0.6622516556291391,
+        "mcnemar_exact_two_sided": 0.07039422106706228,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 25,
+        "hard_losses": 28,
+        "hard_net": -3,
+        "hard_delta_pp": -0.14191106906338694,
+        "mcnemar_exact_two_sided": 0.7838463022094988,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 34,
+        "hard_losses": 29,
+        "hard_net": 5,
+        "hard_delta_pp": 0.23651844843897823,
+        "mcnemar_exact_two_sided": 0.6146550157654618,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      }
+    ]
+  },
+  "utc": "2026-10-24T17:15:17Z",
+  "freeze_sha256": "6bd327fb3fdac6d2faa5e7cba739948523e1008fb6a158d39b6c3c732c25395e"
+}

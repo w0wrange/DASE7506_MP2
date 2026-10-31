@@ -1,0 +1,11 @@
+{
+  "final_model_bytes_unchanged": {
+    "linear/weights.npz": true,
+    "neural/weights.npz": true,
+    "config.json": true
+  },
+  "original_baseline_freeze_sha256": "51e81e5645f6206a2050e3765edf81b71da6e8476bd2b4e62e3ba9f22569ca8b",
+  "original_candidate_freeze_sha256": "f3bd84fa0dfae3761b46a4183953040a1356a04be72279394234998e9a13bac4",
+  "official_four_files_byte_identical": true,
+  "layout_changes": "Student modules renamed/extracted; member arrays and fusion parameters unchanged. Research-workspace artifacts preserved."
+}

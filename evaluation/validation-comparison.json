@@ -1,0 +1,58 @@
+{
+  "first_candidate": {
+    "n": 798,
+    "correct": 624,
+    "accuracy": 78.19548872180451,
+    "hard_n": 355,
+    "hard_correct": 195,
+    "hard_accuracy": 54.929577464788736
+  },
+  "parsed_majority": {
+    "n": 798,
+    "correct": 688,
+    "accuracy": 86.21553884711778,
+    "hard_n": 355,
+    "hard_correct": 245,
+    "hard_accuracy": 69.01408450704226
+  },
+  "linear": {
+    "n": 798,
+    "correct": 722,
+    "accuracy": 90.47619047619048,
+    "hard_n": 355,
+    "hard_correct": 279,
+    "hard_accuracy": 78.59154929577464
+  },
+  "arithmetic_neural": {
+    "n": 798,
+    "correct": 739,
+    "accuracy": 92.60651629072682,
+    "hard_n": 355,
+    "hard_correct": 296,
+    "hard_accuracy": 83.38028169014085
+  },
+  "fusion_without_trace": {
+    "n": 798,
+    "correct": 741,
+    "accuracy": 92.85714285714286,
+    "hard_n": 355,
+    "hard_correct": 298,
+    "hard_accuracy": 83.94366197183099
+  },
+  "final": {
+    "n": 798,
+    "correct": 743,
+    "accuracy": 93.10776942355889,
+    "hard_n": 355,
+    "hard_correct": 300,
+    "hard_accuracy": 84.50704225352112
+  },
+  "trace_paired": {
+    "hard_gains": 3,
+    "hard_losses": 1,
+    "hard_net": 2,
+    "hard_delta_pp": 0.5633802816901409,
+    "mcnemar_exact_two_sided": 0.625,
+    "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+  }
+}

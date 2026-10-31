@@ -1,0 +1,13 @@
+{
+  "kind": "mlp",
+  "width": 256,
+  "dropout": 0.3,
+  "learning_rate": 0.001,
+  "weight_decay": 0.01,
+  "loss": "combined",
+  "relative": true,
+  "structural": true,
+  "seed": 42,
+  "epochs": 19,
+  "export_max_abs_error": 1.9073486328125e-06
+}

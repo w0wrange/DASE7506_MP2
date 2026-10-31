@@ -1,0 +1,21 @@
+{
+  "members": [
+    {
+      "path": "linear",
+      "weight": 0.39358079620766995,
+      "temperature": 0.905605028048277,
+      "flavor": "base"
+    },
+    {
+      "path": "neural",
+      "weight": 0.6064192037923302,
+      "temperature": 3.071770355968108,
+      "flavor": "arithmetic"
+    }
+  ],
+  "support_bonus": 1.0,
+  "taint_penalty": 0.0,
+  "aggregation": {
+    "mode": "candidate_max"
+  }
+}

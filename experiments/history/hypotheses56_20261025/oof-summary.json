@@ -1,0 +1,125 @@
+[
+  {
+    "variant": "combined",
+    "calibrated_fusion": {
+      "mean": 82.41879533270263,
+      "sd": 0.19117558582438215
+    },
+    "fixed_fusion": {
+      "mean": 82.38725953957743,
+      "sd": 0.238090016880195
+    },
+    "nn_only": {
+      "mean": 81.3938820561337,
+      "sd": 0.3322501971886684
+    },
+    "paired_vs_combined": [
+      {
+        "hard_gains": 0,
+        "hard_losses": 0,
+        "hard_net": 0,
+        "hard_delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 0,
+        "hard_losses": 0,
+        "hard_net": 0,
+        "hard_delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 0,
+        "hard_losses": 0,
+        "hard_net": 0,
+        "hard_delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      }
+    ]
+  },
+  {
+    "variant": "pairwise",
+    "calibrated_fusion": {
+      "mean": 82.04036581520025,
+      "sd": 0.27717432720352086
+    },
+    "fixed_fusion": {
+      "mean": 81.91422264269946,
+      "sd": 0.2235485159059907
+    },
+    "nn_only": {
+      "mean": 81.29927467675812,
+      "sd": 0.14451515909668733
+    },
+    "paired_vs_combined": [
+      {
+        "hard_gains": 29,
+        "hard_losses": 44,
+        "hard_net": -15,
+        "hard_delta_pp": -0.7095553453169348,
+        "mcnemar_exact_two_sided": 0.1006436775202357,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 34,
+        "hard_losses": 33,
+        "hard_net": 1,
+        "hard_delta_pp": 0.04730368968779565,
+        "mcnemar_exact_two_sided": 1.0,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 27,
+        "hard_losses": 37,
+        "hard_net": -10,
+        "hard_delta_pp": -0.47303689687795647,
+        "mcnemar_exact_two_sided": 0.2604354765766535,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      }
+    ]
+  },
+  {
+    "variant": "no_surface",
+    "calibrated_fusion": {
+      "mean": 82.04036581520025,
+      "sd": 0.07225757954833979
+    },
+    "fixed_fusion": {
+      "mean": 82.13497319457585,
+      "sd": 0.2771743272035156
+    },
+    "nn_only": {
+      "mean": 81.12582781456953,
+      "sd": 0.2954114474171344
+    },
+    "paired_vs_combined": [
+      {
+        "hard_gains": 30,
+        "hard_losses": 44,
+        "hard_net": -14,
+        "hard_delta_pp": -0.6622516556291391,
+        "mcnemar_exact_two_sided": 0.13017768031912763,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 39,
+        "hard_losses": 45,
+        "hard_net": -6,
+        "hard_delta_pp": -0.28382213812677387,
+        "mcnemar_exact_two_sided": 0.5856467947212246,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 36,
+        "hard_losses": 40,
+        "hard_net": -4,
+        "hard_delta_pp": -0.1892147587511826,
+        "mcnemar_exact_two_sided": 0.7310088822226052,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      }
+    ]
+  }
+]

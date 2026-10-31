@@ -1,0 +1,25 @@
+{
+  "spec": {
+    "kernel": "tree-1",
+    "base": "original",
+    "kernel_weight": 0.1
+  },
+  "oof": {
+    "n": 4755,
+    "correct": 4393,
+    "accuracy": 92.3869610935857,
+    "hard_n": 2114,
+    "hard_correct": 1752,
+    "hard_accuracy": 82.87606433301798
+  },
+  "validation": {
+    "n": 798,
+    "correct": 745,
+    "accuracy": 93.35839598997494,
+    "hard_n": 355,
+    "hard_correct": 302,
+    "hard_accuracy": 85.07042253521126
+  },
+  "eligible": true,
+  "asset_bytes": 2779515
+}

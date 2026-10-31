@@ -1,0 +1,177 @@
+{
+  "status": "passed",
+  "scope": "One complete clean-directory GPU replay of the released final recipe; no test references used.",
+  "all_weight_and_normalizer_arrays_exactly_equal": true,
+  "configuration_equal": true,
+  "arrays": [
+    {
+      "member": "linear",
+      "array": "mean",
+      "shape": [
+        1024
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "member": "linear",
+      "array": "scale",
+      "shape": [
+        1024
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "member": "linear",
+      "array": "coef",
+      "shape": [
+        1024
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "member": "linear",
+      "array": "bias",
+      "shape": [
+        1
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "member": "neural",
+      "array": "encoder.0.weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "member": "neural",
+      "array": "encoder.0.bias",
+      "shape": [
+        256
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "member": "neural",
+      "array": "encoder.3.weight",
+      "shape": [
+        64,
+        256
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "member": "neural",
+      "array": "encoder.3.bias",
+      "shape": [
+        64
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "member": "neural",
+      "array": "head.0.weight",
+      "shape": [
+        64,
+        267
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "member": "neural",
+      "array": "head.0.bias",
+      "shape": [
+        64
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "member": "neural",
+      "array": "head.3.weight",
+      "shape": [
+        1,
+        64
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "member": "neural",
+      "array": "head.3.bias",
+      "shape": [
+        1
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "member": "neural",
+      "array": "mean",
+      "shape": [
+        1024
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "member": "neural",
+      "array": "scale",
+      "shape": [
+        1024
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "member": "neural",
+      "array": "fmean",
+      "shape": [
+        75
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "member": "neural",
+      "array": "fscale",
+      "shape": [
+        75
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    }
+  ],
+  "validation": {
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 743,
+    "n": 798,
+    "accuracy": 93.10776942355889,
+    "scoring_seconds": 0.07632390409708023
+  },
+  "resources": {
+    "seconds": 62.6251587709412,
+    "fits": 12,
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 3080 Ti",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "seed": 42,
+    "threads": 4
+  },
+  "test_evaluation_performed": false,
+  "bitwise_npz_file_identity_required": false,
+  "note": "NPZ container metadata and FREEZE provenance can differ; all numerical arrays and inference configuration compared exactly."
+}

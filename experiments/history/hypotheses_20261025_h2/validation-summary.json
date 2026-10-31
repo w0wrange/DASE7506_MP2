@@ -1,0 +1,17 @@
+[
+  {
+    "policy": "ratio4",
+    "mean_hard_accuracy": 83.75586854460094,
+    "sd_hard_accuracy": 0.5863847885820065
+  },
+  {
+    "policy": "ratio8",
+    "mean_hard_accuracy": 84.22535211267605,
+    "sd_hard_accuracy": 0.4879016359348892
+  },
+  {
+    "policy": "hard_only",
+    "mean_hard_accuracy": 83.38028169014085,
+    "sd_hard_accuracy": 1.0156482466095735
+  }
+]

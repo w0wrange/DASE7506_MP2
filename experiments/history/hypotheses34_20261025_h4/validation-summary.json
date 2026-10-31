@@ -1,0 +1,17 @@
+[
+  {
+    "mode": "global",
+    "mean_hard_accuracy": 83.75586854460094,
+    "sd_hard_accuracy": 0.5863847885820065
+  },
+  {
+    "mode": "valid_global",
+    "mean_hard_accuracy": 83.94366197183099,
+    "sd_hard_accuracy": 0.2816901408450647
+  },
+  {
+    "mode": "answer_groups",
+    "mean_hard_accuracy": 83.94366197183099,
+    "sd_hard_accuracy": 0.7452820594548099
+  }
+]

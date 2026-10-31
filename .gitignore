@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv*/
+runs/
+dist/
+.DS_Store
+code/data/candidates/
+code/data/gsm8k_*.jsonl
+*.zip

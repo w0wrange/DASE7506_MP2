@@ -1,0 +1,173 @@
+[
+  {
+    "mode": "global",
+    "mean_hard_accuracy": 82.38725953957743,
+    "sd_hard_accuracy": 0.238090016880195,
+    "paired_vs_global": [
+      {
+        "hard_gains": 0,
+        "hard_losses": 0,
+        "hard_net": 0,
+        "hard_delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 0,
+        "hard_losses": 0,
+        "hard_net": 0,
+        "hard_delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 0,
+        "hard_losses": 0,
+        "hard_net": 0,
+        "hard_delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      }
+    ],
+    "paired_vs_valid_global": [
+      {
+        "hard_gains": 33,
+        "hard_losses": 19,
+        "hard_net": 14,
+        "hard_delta_pp": 0.6622516556291391,
+        "mcnemar_exact_two_sided": 0.07039422106706228,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 25,
+        "hard_losses": 28,
+        "hard_net": -3,
+        "hard_delta_pp": -0.14191106906338694,
+        "mcnemar_exact_two_sided": 0.7838463022094988,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 34,
+        "hard_losses": 29,
+        "hard_net": 5,
+        "hard_delta_pp": 0.23651844843897823,
+        "mcnemar_exact_two_sided": 0.6146550157654618,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      }
+    ]
+  },
+  {
+    "mode": "valid_global",
+    "mean_hard_accuracy": 82.13497319457585,
+    "sd_hard_accuracy": 0.1661250985943379,
+    "paired_vs_global": [
+      {
+        "hard_gains": 19,
+        "hard_losses": 33,
+        "hard_net": -14,
+        "hard_delta_pp": -0.6622516556291391,
+        "mcnemar_exact_two_sided": 0.07039422106706228,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 28,
+        "hard_losses": 25,
+        "hard_net": 3,
+        "hard_delta_pp": 0.14191106906338694,
+        "mcnemar_exact_two_sided": 0.7838463022094988,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 29,
+        "hard_losses": 34,
+        "hard_net": -5,
+        "hard_delta_pp": -0.23651844843897823,
+        "mcnemar_exact_two_sided": 0.6146550157654618,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      }
+    ],
+    "paired_vs_valid_global": [
+      {
+        "hard_gains": 0,
+        "hard_losses": 0,
+        "hard_net": 0,
+        "hard_delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 0,
+        "hard_losses": 0,
+        "hard_net": 0,
+        "hard_delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 0,
+        "hard_losses": 0,
+        "hard_net": 0,
+        "hard_delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      }
+    ]
+  },
+  {
+    "mode": "answer_groups",
+    "mean_hard_accuracy": 81.33081046988332,
+    "sd_hard_accuracy": 0.30777706237690067,
+    "paired_vs_global": [
+      {
+        "hard_gains": 66,
+        "hard_losses": 100,
+        "hard_net": -34,
+        "hard_delta_pp": -1.608325449385052,
+        "mcnemar_exact_two_sided": 0.010212663152631526,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 71,
+        "hard_losses": 89,
+        "hard_net": -18,
+        "hard_delta_pp": -0.8514664143803217,
+        "mcnemar_exact_two_sided": 0.1787772680491752,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 79,
+        "hard_losses": 94,
+        "hard_net": -15,
+        "hard_delta_pp": -0.7095553453169348,
+        "mcnemar_exact_two_sided": 0.2871181950978105,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      }
+    ],
+    "paired_vs_valid_global": [
+      {
+        "hard_gains": 67,
+        "hard_losses": 87,
+        "hard_net": -20,
+        "hard_delta_pp": -0.9460737937559129,
+        "mcnemar_exact_two_sided": 0.12547871343864164,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 73,
+        "hard_losses": 94,
+        "hard_net": -21,
+        "hard_delta_pp": -0.9933774834437086,
+        "mcnemar_exact_two_sided": 0.12144802122959854,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      },
+      {
+        "hard_gains": 84,
+        "hard_losses": 94,
+        "hard_net": -10,
+        "hard_delta_pp": -0.47303689687795647,
+        "mcnemar_exact_two_sided": 0.500054606001611,
+        "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+      }
+    ]
+  }
+]

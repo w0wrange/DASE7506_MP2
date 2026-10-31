@@ -1,0 +1,16 @@
+{
+  "split": "test",
+  "prediction_process_seconds": 0.6210054170805961,
+  "scoring_process_seconds": 0.054588250000961125,
+  "total_seconds": 0.6755936670815572,
+  "asset_uncompressed_bytes": 1209639,
+  "threads": 4,
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "cpu_model": "arm",
+  "python": "3.12.14",
+  "checkpoint_freeze_sha256": "177c2b4f9d6a8bd9d04b466bde61317fab970f5287fd3d650dc0bd179794ea83",
+  "reference_cpu_eligibility": "Not established; Xeon Platinum8457C is authoritative.",
+  "test_predictions_retained": false,
+  "official_scorer_sha256": "fe12b809b82117aea722e5dfef7a55a88950a7cf50c49ec2ea007ea847959960",
+  "bank_manifest_sha256": "8b3721d458e48c87eab3a28f660e663981b10617b6e7321123c6ff30b1fbe825"
+}

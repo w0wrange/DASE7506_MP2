@@ -1,0 +1,41 @@
+{
+  "variant": "combined",
+  "calibrated_fusion": {
+    "mean": 82.41879533270263,
+    "sd": 0.19117558582438215
+  },
+  "fixed_fusion": {
+    "mean": 82.38725953957743,
+    "sd": 0.238090016880195
+  },
+  "nn_only": {
+    "mean": 81.3938820561337,
+    "sd": 0.3322501971886684
+  },
+  "paired_vs_combined": [
+    {
+      "hard_gains": 0,
+      "hard_losses": 0,
+      "hard_net": 0,
+      "hard_delta_pp": 0.0,
+      "mcnemar_exact_two_sided": 1.0,
+      "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+    },
+    {
+      "hard_gains": 0,
+      "hard_losses": 0,
+      "hard_net": 0,
+      "hard_delta_pp": 0.0,
+      "mcnemar_exact_two_sided": 1.0,
+      "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+    },
+    {
+      "hard_gains": 0,
+      "hard_losses": 0,
+      "hard_net": 0,
+      "hard_delta_pp": 0.0,
+      "mcnemar_exact_two_sided": 1.0,
+      "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+    }
+  ]
+}

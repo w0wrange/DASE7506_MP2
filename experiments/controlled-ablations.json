@@ -1,0 +1,255 @@
+[
+  {
+    "config": {
+      "kind": "mlp",
+      "width": 256,
+      "dropout": 0.1,
+      "learning_rate": 0.0003,
+      "weight_decay": 0.01,
+      "loss": "combined",
+      "relative": true,
+      "structural": true,
+      "seed": 42,
+      "epochs": 23,
+      "export_max_abs_error": 3.814697265625e-06
+    },
+    "metrics": {
+      "n": 798,
+      "correct": 740,
+      "accuracy": 92.73182678222656,
+      "hard_n": 355,
+      "hard_correct": 297,
+      "hard_accuracy": 83.66197204589844,
+      "correct_mass_nll": 0.35100269317626953
+    },
+    "seconds": 7.564217054285109,
+    "asset_bytes": 1193191,
+    "name": "mlp-full-seed42"
+  },
+  {
+    "config": {
+      "kind": "mlp",
+      "width": 256,
+      "dropout": 0.1,
+      "learning_rate": 0.0003,
+      "weight_decay": 0.01,
+      "loss": "combined",
+      "relative": true,
+      "structural": true,
+      "seed": 43,
+      "epochs": 23,
+      "export_max_abs_error": 4.470348358154297e-06
+    },
+    "metrics": {
+      "n": 798,
+      "correct": 739,
+      "accuracy": 92.60651397705078,
+      "hard_n": 355,
+      "hard_correct": 296,
+      "hard_accuracy": 83.38027954101562,
+      "correct_mass_nll": 0.3120821714401245
+    },
+    "seconds": 4.036182496696711,
+    "asset_bytes": 1193194,
+    "name": "mlp-full-seed43"
+  },
+  {
+    "config": {
+      "kind": "mlp",
+      "width": 256,
+      "dropout": 0.1,
+      "learning_rate": 0.0003,
+      "weight_decay": 0.01,
+      "loss": "combined",
+      "relative": true,
+      "structural": true,
+      "seed": 44,
+      "epochs": 23,
+      "export_max_abs_error": 2.86102294921875e-06
+    },
+    "metrics": {
+      "n": 798,
+      "correct": 738,
+      "accuracy": 92.481201171875,
+      "hard_n": 355,
+      "hard_correct": 295,
+      "hard_accuracy": 83.09858703613281,
+      "correct_mass_nll": 0.33424049615859985
+    },
+    "seconds": 4.788813956081867,
+    "asset_bytes": 1193193,
+    "name": "mlp-full-seed44"
+  },
+  {
+    "config": {
+      "kind": "mlp",
+      "width": 256,
+      "dropout": 0.1,
+      "learning_rate": 0.0003,
+      "weight_decay": 0.01,
+      "loss": "combined",
+      "relative": false,
+      "structural": true,
+      "seed": 42,
+      "epochs": 23,
+      "export_max_abs_error": 2.384185791015625e-06
+    },
+    "metrics": {
+      "n": 798,
+      "correct": 735,
+      "accuracy": 92.10526275634766,
+      "hard_n": 355,
+      "hard_correct": 292,
+      "hard_accuracy": 82.25352478027344,
+      "correct_mass_nll": 0.2817726135253906
+    },
+    "seconds": 3.7549472507089376,
+    "asset_bytes": 1160427,
+    "name": "mlp-no-relative"
+  },
+  {
+    "config": {
+      "kind": "mlp",
+      "width": 256,
+      "dropout": 0.1,
+      "learning_rate": 0.0003,
+      "weight_decay": 0.01,
+      "loss": "combined",
+      "relative": true,
+      "structural": false,
+      "seed": 42,
+      "epochs": 23,
+      "export_max_abs_error": 4.76837158203125e-06
+    },
+    "metrics": {
+      "n": 798,
+      "correct": 721,
+      "accuracy": 90.35087585449219,
+      "hard_n": 355,
+      "hard_correct": 278,
+      "hard_accuracy": 78.30986022949219,
+      "correct_mass_nll": 0.28275638818740845
+    },
+    "seconds": 4.7045144671574235,
+    "asset_bytes": 1177066,
+    "name": "mlp-no-structure"
+  },
+  {
+    "config": {
+      "kind": "mlp",
+      "width": 256,
+      "dropout": 0.1,
+      "learning_rate": 0.0003,
+      "weight_decay": 0.01,
+      "loss": "combined",
+      "relative": false,
+      "structural": true,
+      "seed": 42,
+      "epochs": 23,
+      "export_max_abs_error": 3.2186508178710938e-06,
+      "comparison_features": false
+    },
+    "metrics": {
+      "n": 798,
+      "correct": 735,
+      "accuracy": 92.10526275634766,
+      "hard_n": 355,
+      "hard_correct": 292,
+      "hard_accuracy": 82.25352478027344,
+      "correct_mass_nll": 0.22062352299690247
+    },
+    "seconds": 4.641109195537865,
+    "asset_bytes": 1160460,
+    "name": "mlp-no-comparison"
+  },
+  {
+    "config": {
+      "kind": "catboost",
+      "depth": 6,
+      "learning_rate": 0.03,
+      "l2_leaf_reg": 10.0,
+      "relative": false,
+      "structural": true,
+      "seed": 42,
+      "epochs": 1192
+    },
+    "metrics": {
+      "n": 798,
+      "correct": 729,
+      "accuracy": 91.35337829589844,
+      "hard_n": 355,
+      "hard_correct": 286,
+      "hard_accuracy": 80.5633773803711,
+      "correct_mass_nll": 0.25451886653900146
+    },
+    "seconds": 71.2464504642412,
+    "asset_bytes": 1372690,
+    "name": "tree-no-relative"
+  },
+  {
+    "config": {
+      "kind": "catboost",
+      "depth": 6,
+      "learning_rate": 0.03,
+      "l2_leaf_reg": 10.0,
+      "relative": true,
+      "structural": false,
+      "seed": 42,
+      "epochs": 1192
+    },
+    "metrics": {
+      "n": 798,
+      "correct": 722,
+      "accuracy": 90.47618865966797,
+      "hard_n": 355,
+      "hard_correct": 279,
+      "hard_accuracy": 78.591552734375,
+      "correct_mass_nll": 0.21402442455291748
+    },
+    "seconds": 107.14255994185805,
+    "asset_bytes": 1404354,
+    "name": "tree-no-structure"
+  },
+  {
+    "config": {
+      "kind": "sparse",
+      "text_mode": "answer",
+      "analyzer": "word",
+      "C": 1.0,
+      "seed": 42
+    },
+    "metrics": {
+      "n": 798,
+      "correct": 600,
+      "accuracy": 75.18797302246094,
+      "hard_n": 355,
+      "hard_correct": 157,
+      "hard_accuracy": 44.2253532409668,
+      "correct_mass_nll": 0.31533706188201904
+    },
+    "seconds": 1.551796168088913,
+    "asset_bytes": 1049178,
+    "name": "text-answer-controlled"
+  },
+  {
+    "config": {
+      "kind": "sparse",
+      "text_mode": "full",
+      "analyzer": "word",
+      "C": 1.0,
+      "seed": 42
+    },
+    "metrics": {
+      "n": 798,
+      "correct": 652,
+      "accuracy": 81.70426177978516,
+      "hard_n": 355,
+      "hard_correct": 209,
+      "hard_accuracy": 58.87324142456055,
+      "correct_mass_nll": 0.3019663691520691
+    },
+    "seconds": 3.5888709109276533,
+    "asset_bytes": 1049176,
+    "name": "text-full-controlled"
+  }
+]

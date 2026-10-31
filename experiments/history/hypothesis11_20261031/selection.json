@@ -1,0 +1,25 @@
+{
+  "spec": {
+    "kernel": "rbf-4",
+    "base": "original",
+    "kernel_weight": 0.25
+  },
+  "oof": {
+    "n": 4755,
+    "correct": 4397,
+    "accuracy": 92.47108307045215,
+    "hard_n": 2114,
+    "hard_correct": 1756,
+    "hard_accuracy": 83.06527909176916
+  },
+  "validation": {
+    "n": 798,
+    "correct": 745,
+    "accuracy": 93.35839598997494,
+    "hard_n": 355,
+    "hard_correct": 302,
+    "hard_accuracy": 85.07042253521126
+  },
+  "eligible": true,
+  "asset_bytes": 5314809
+}

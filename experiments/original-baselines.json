@@ -1,0 +1,63 @@
+{
+  "hardware": {
+    "python": "3.12.3",
+    "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+    "machine": "x86_64",
+    "packages": {
+      "numpy": "2.3.2",
+      "scipy": "1.16.1",
+      "scikit-learn": "1.7.1",
+      "catboost": "1.2.8",
+      "torch": "2.8.0+cu128",
+      "threadpoolctl": "3.6.0"
+    },
+    "gpu": "NVIDIA GeForce RTX 3080 Ti"
+  },
+  "seed": 42,
+  "splits": {
+    "train": {
+      "n": 4755,
+      "hard_n": 2114,
+      "unparseable_candidates": 871,
+      "correct_candidates_hist": {
+        "3": 1070,
+        "1": 711,
+        "4": 2242,
+        "2": 732
+      },
+      "first_accuracy": 75.373291015625,
+      "first_hard_accuracy": 50.993377685546875,
+      "majority": {
+        "n": 4755,
+        "correct": 4054,
+        "accuracy": 85.25762939453125,
+        "hard_n": 2114,
+        "hard_correct": 1413,
+        "hard_accuracy": 66.8401107788086,
+        "correct_mass_nll": 0.33399859070777893
+      }
+    },
+    "validation": {
+      "n": 798,
+      "hard_n": 355,
+      "unparseable_candidates": 157,
+      "correct_candidates_hist": {
+        "2": 123,
+        "4": 379,
+        "1": 117,
+        "3": 179
+      },
+      "first_accuracy": 78.19548797607422,
+      "first_hard_accuracy": 54.9295768737793,
+      "majority": {
+        "n": 798,
+        "correct": 688,
+        "accuracy": 86.21553802490234,
+        "hard_n": 355,
+        "hard_correct": 245,
+        "hard_accuracy": 69.01408386230469,
+        "correct_mass_nll": 0.31884172558784485
+      }
+    }
+  }
+}

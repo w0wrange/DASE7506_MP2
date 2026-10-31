@@ -1,0 +1,13 @@
+{
+  "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "python": "3.12.3",
+  "threads": 4,
+  "prediction_seconds": 3.1606846428476274,
+  "scoring_seconds": 0.1909131919965148,
+  "total_seconds": 3.351597834844142,
+  "uncompressed_asset_bytes": 1209466,
+  "freeze_sha256": "f3bd84fa0dfae3761b46a4183953040a1356a04be72279394234998e9a13bac4",
+  "contract_checks": "IDs, question reordering, variable bank size, empty input, Python integer outputs passed.",
+  "test_status": "Reference test scores are intentionally not persisted; test feedback is excluded from model fitting/selection. CPU timing is not reference-Xeon compliance proof.",
+  "cpu": "Intel(R) Xeon(R) Gold 6248 CPU @ 2.50GHz"
+}

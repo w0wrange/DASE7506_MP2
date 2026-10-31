@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "subset_checks": {
+    "0": "IDs changed; reordered subsets preserve alignment; Python integer outputs",
+    "1": "IDs changed; reordered subsets preserve alignment; Python integer outputs",
+    "5": "IDs changed; reordered subsets preserve alignment; Python integer outputs"
+  },
+  "parser_equivalence": "1/2 equals 0.5",
+  "multiple_correct": "first valid duplicate selected",
+  "no_valid_answers": "falls back to index0",
+  "arithmetic": {
+    "cases": 4,
+    "status": "passed",
+    "scope": "direct and propagated correction, rounding tolerance, unsupported variable unknown"
+  },
+  "official_files": "four upstream files byte-identical",
+  "checkpoint_freeze_sha256": "177c2b4f9d6a8bd9d04b466bde61317fab970f5287fd3d650dc0bd179794ea83",
+  "test_references_accessed": false
+}

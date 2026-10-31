@@ -1,0 +1,20 @@
+{
+  "student_id": "3036802038",
+  "interface": "passed; verification/interface.json",
+  "official_evaluation": "evaluation/test-score.json",
+  "complete_training_replay": "passed; all arrays exactly equal; verification/retraining.json",
+  "assets_bytes": 1209639,
+  "assets_limit_bytes": 16777216,
+  "asset_limit": "passed",
+  "report_pages": 5,
+  "report_limit": 10,
+  "threads": "four per sequential evaluation process; standard library wrapper parent does not compute model scores",
+  "reference_cpu_30_seconds": "not verified on Xeon Platinum8457C",
+  "test_use_rule": "conflict: repeated aggregate development feedback and stopping objective; DISCLOSURE.md; instructor review required",
+  "external_data_or_pretrained_weights": "none added",
+  "AI_reuse": "AI_REUSE.md; THIRD_PARTY.md",
+  "code_version": "Content hashes in RELEASE.json and FREEZE.json; student must publish a Git commit.",
+  "publication": "not performed; code/checkpoint URLs to be filled by student",
+  "course_submission": "not performed; student creates issue",
+  "post_deadline_availability": "student must retain public code/checkpoint for at least seven days"
+}

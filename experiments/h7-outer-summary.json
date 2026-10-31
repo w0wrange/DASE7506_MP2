@@ -1,0 +1,37 @@
+[
+  {
+    "method": "original",
+    "mean": 82.38725953957743,
+    "sd": 0.238090016880195,
+    "positive_seeds": 0,
+    "eligible": true
+  },
+  {
+    "method": "arithmetic",
+    "mean": 82.43456322926522,
+    "sd": 0.35817775754022835,
+    "positive_seeds": 2,
+    "eligible": true
+  },
+  {
+    "method": "nested_constant",
+    "mean": 82.43456322926522,
+    "sd": 0.28903031819337316,
+    "positive_seeds": 2,
+    "eligible": true
+  },
+  {
+    "method": "gate-0.01",
+    "mean": 81.77231157363607,
+    "sd": 0.23809001688018838,
+    "positive_seeds": 0,
+    "eligible": false
+  },
+  {
+    "method": "gate-0.1",
+    "mean": 81.96152633238725,
+    "sd": 0.11904500844009797,
+    "positive_seeds": 0,
+    "eligible": false
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "validation": {
+    "support_bonus": 1.0,
+    "taint_penalty": 0.0,
+    "aggregation": {
+      "mode": "candidate_max"
+    },
+    "oof": {
+      "n": 4755,
+      "correct": 4400,
+      "accuracy": 92.534174553102,
+      "hard_n": 2114,
+      "hard_correct": 1759,
+      "hard_accuracy": 83.20719016083254
+    },
+    "validation": {
+      "n": 798,
+      "correct": 743,
+      "accuracy": 93.10776942355889,
+      "hard_n": 355,
+      "hard_correct": 300,
+      "hard_accuracy": 84.50704225352112
+    },
+    "eligible": true,
+    "train_paired": {
+      "hard_gains": 12,
+      "hard_losses": 1,
+      "hard_net": 11,
+      "hard_delta_pp": 0.5203405865657521,
+      "mcnemar_exact_two_sided": 0.00341796875,
+      "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+    },
+    "validation_paired": {
+      "hard_gains": 3,
+      "hard_losses": 1,
+      "hard_net": 2,
+      "hard_delta_pp": 0.5633802816901409,
+      "mcnemar_exact_two_sided": 0.625,
+      "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+    }
+  },
+  "oof": {
+    "support_bonus": 1.0,
+    "taint_penalty": 0.0,
+    "aggregation": {
+      "mode": "candidate_max"
+    },
+    "oof": {
+      "n": 4755,
+      "correct": 4400,
+      "accuracy": 92.534174553102,
+      "hard_n": 2114,
+      "hard_correct": 1759,
+      "hard_accuracy": 83.20719016083254
+    },
+    "validation": {
+      "n": 798,
+      "correct": 743,
+      "accuracy": 93.10776942355889,
+      "hard_n": 355,
+      "hard_correct": 300,
+      "hard_accuracy": 84.50704225352112
+    },
+    "eligible": true,
+    "train_paired": {
+      "hard_gains": 12,
+      "hard_losses": 1,
+      "hard_net": 11,
+      "hard_delta_pp": 0.5203405865657521,
+      "mcnemar_exact_two_sided": 0.00341796875,
+      "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+    },
+    "validation_paired": {
+      "hard_gains": 3,
+      "hard_losses": 1,
+      "hard_net": 2,
+      "hard_delta_pp": 0.5633802816901409,
+      "mcnemar_exact_two_sided": 0.625,
+      "interpretation": "Descriptive paired comparison; not adjusted for model selection or multiple comparisons."
+    }
+  }
+}

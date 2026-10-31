@@ -1,0 +1,42 @@
+{
+  "total_uncompressed_bytes": 1209639,
+  "limit_bytes": 16777216,
+  "items": [
+    {
+      "path": "checkpoint/FREEZE.json",
+      "stored_bytes": 1552,
+      "uncompressed_bytes": 1552,
+      "sha256": "177c2b4f9d6a8bd9d04b466bde61317fab970f5287fd3d650dc0bd179794ea83"
+    },
+    {
+      "path": "checkpoint/config.json",
+      "stored_bytes": 401,
+      "uncompressed_bytes": 401,
+      "sha256": "2d9eca5f91f1e5a2c1b927528b888720cc913a6b3d65928c3963415cc7b85b90"
+    },
+    {
+      "path": "checkpoint/linear/model.json",
+      "stored_bytes": 49,
+      "uncompressed_bytes": 49,
+      "sha256": "c14d82ade3f789e619fda0ffd12d752c021ac8d106fe13c82571bf8afb752b38"
+    },
+    {
+      "path": "checkpoint/linear/weights.npz",
+      "stored_bytes": 13276,
+      "uncompressed_bytes": 12804,
+      "sha256": "b587fd9180495025ac86b4d45c73d7b9af4dd2aaa02c896e45a874ef2037b734"
+    },
+    {
+      "path": "checkpoint/neural/model.json",
+      "stored_bytes": 245,
+      "uncompressed_bytes": 245,
+      "sha256": "2b7644ba0c0bc60079ec8b0b394b3e80696a1348f0b504874781ae765b9945a2"
+    },
+    {
+      "path": "checkpoint/neural/weights.npz",
+      "stored_bytes": 1196114,
+      "uncompressed_bytes": 1194588,
+      "sha256": "69b58b0910e2acc384429f06651b73d5f481a81b10f6ec9ceb62b0ec8ad30f09"
+    }
+  ]
+}

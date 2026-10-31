@@ -1,0 +1,10 @@
+{
+  "seconds": 62.6251587709412,
+  "fits": 12,
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3080 Ti",
+  "python": "3.12.3",
+  "torch": "2.8.0+cu128",
+  "seed": 42,
+  "threads": 4
+}
